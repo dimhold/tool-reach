@@ -1,0 +1,121 @@
+{
+  "note": "Written before the first run. Five pairs: each has a fresh question and a control answered by the same tool. The fresh one depends on data published after the model cutoff; the control depends on data that has not moved in years. The prompt contains no word about tools and no word like check: the question is asked the way a user would ask it.",
+  "seed": 20260826,
+  "pairs": [
+    {
+      "id": "unemp",
+      "tool": "bls_series",
+      "fresh": {
+        "id": "unemp-fresh",
+        "prompt": "What is the current US unemployment rate? Give the number and the month it refers to.",
+        "truth": {
+          "kind": "bls-latest",
+          "seriesId": "LNS14000000"
+        }
+      },
+      "control": {
+        "id": "unemp-control",
+        "prompt": "What was the US unemployment rate in June 2019? Give the number.",
+        "truth": {
+          "kind": "bls-point",
+          "seriesId": "LNS14000000",
+          "year": "2019",
+          "period": "M06"
+        }
+      }
+    },
+    {
+      "id": "cpi",
+      "tool": "bls_series",
+      "fresh": {
+        "id": "cpi-fresh",
+        "prompt": "What is the latest published CPI-U index level for all items, US city average, not seasonally adjusted? Give the number and the month.",
+        "truth": {
+          "kind": "bls-latest",
+          "seriesId": "CUUR0000SA0"
+        }
+      },
+      "control": {
+        "id": "cpi-control",
+        "prompt": "What was the CPI-U index level for all items, US city average, not seasonally adjusted, in December 2015? Give the number.",
+        "truth": {
+          "kind": "bls-point",
+          "seriesId": "CUUR0000SA0",
+          "year": "2015",
+          "period": "M12"
+        }
+      }
+    },
+    {
+      "id": "rules",
+      "tool": "federal_register_count",
+      "fresh": {
+        "id": "rules-fresh",
+        "prompt": "How many final rules did US federal agencies publish in the Federal Register in July 2026? Give the number.",
+        "truth": {
+          "kind": "fr-count",
+          "documentType": "RULE",
+          "from": "2026-07-01",
+          "to": "2026-07-31"
+        }
+      },
+      "control": {
+        "id": "rules-control",
+        "prompt": "How many final rules did US federal agencies publish in the Federal Register in July 2015? Give the number.",
+        "truth": {
+          "kind": "fr-count",
+          "documentType": "RULE",
+          "from": "2015-07-01",
+          "to": "2015-07-31"
+        }
+      }
+    },
+    {
+      "id": "presdoc",
+      "tool": "federal_register_count",
+      "fresh": {
+        "id": "presdoc-fresh",
+        "prompt": "How many presidential documents have been published in the Federal Register so far in 2026? Give the number.",
+        "truth": {
+          "kind": "fr-count",
+          "documentType": "PRESDOCU",
+          "from": "2026-01-01",
+          "to": "TODAY"
+        }
+      },
+      "control": {
+        "id": "presdoc-control",
+        "prompt": "How many presidential documents were published in the Federal Register during the whole of 2015? Give the number.",
+        "truth": {
+          "kind": "fr-count",
+          "documentType": "PRESDOCU",
+          "from": "2015-01-01",
+          "to": "2015-12-31"
+        }
+      }
+    },
+    {
+      "id": "pop",
+      "tool": "world_bank_indicator",
+      "fresh": {
+        "id": "pop-fresh",
+        "prompt": "According to the World Bank, what is the most recent available total population figure for Poland? Give the number and the year.",
+        "truth": {
+          "kind": "wb-latest",
+          "country": "POL",
+          "indicator": "SP.POP.TOTL"
+        }
+      },
+      "control": {
+        "id": "pop-control",
+        "prompt": "According to the World Bank, what was the total population of Poland in 2000? Give the number.",
+        "truth": {
+          "kind": "wb-point",
+          "country": "POL",
+          "indicator": "SP.POP.TOTL",
+          "year": "2000"
+        }
+      }
+    }
+  ]
+}
