@@ -1,0 +1,16 @@
+{
+  "name": "tool-reach",
+  "version": "1.0.0",
+  "description": "A live MCP server to three government data sources, 150 calls, three models. 149 of 150 reached for the tool. When the tool broke, one model disclosed it 20/20 and another 2/20.",
+  "license": "MIT",
+  "author": "Dmitriy Semenkevich <dimhold@gmail.com>",
+  "type": "module",
+  "private": false,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "truth": "node groundtruth.mjs --out out",
+    "context-check": "node run.mjs --context-check",
+    "probe": "node run.mjs --trials 5 --conc 2 --out out",
+    "classify": "node classify.mjs --out out"
+  }
+}
