@@ -1,0 +1,2927 @@
+[
+  {
+    "runId": "claude-opus-5|unemp-fresh|1",
+    "model": "claude-opus-5",
+    "questionId": "unemp-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 1,
+    "toolCalls": 1,
+    "toolNames": [
+      "bls_series"
+    ],
+    "truth": 4.1,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 13675,
+    "text": "**4.1%** — for **July 2026**, the most recent month published by BLS (series LNS14000000, seasonally adjusted).\n\nTrend: it's come down from 4.5% in November 2025, easing over the last few months (4.3% in March–May, 4.2% in June)."
+  },
+  {
+    "runId": "claude-opus-5|unemp-fresh|3",
+    "model": "claude-opus-5",
+    "questionId": "unemp-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 3,
+    "toolCalls": 1,
+    "toolNames": [
+      "bls_series"
+    ],
+    "truth": 4.1,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 13765,
+    "text": "**4.1%** — for **July 2026**, the most recent month published by BLS (series LNS14000000, seasonally adjusted).\n\nThat's down from 4.2% in June 2026, continuing a slow decline from the 4.5% peak in November 2025."
+  },
+  {
+    "runId": "claude-opus-5|unemp-fresh|2",
+    "model": "claude-opus-5",
+    "questionId": "unemp-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 2,
+    "toolCalls": 1,
+    "toolNames": [
+      "bls_series"
+    ],
+    "truth": 4.1,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 14256,
+    "text": "**4.1%** — for **July 2026**, the most recent month published by BLS (series LNS14000000, seasonally adjusted).\n\nRecent trend: 4.4% (Feb) → 4.3% (Mar–May) → 4.2% (Jun) → 4.1% (Jul), so it's been easing over the past several months."
+  },
+  {
+    "runId": "claude-opus-5|unemp-fresh|4",
+    "model": "claude-opus-5",
+    "questionId": "unemp-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 4,
+    "toolCalls": 1,
+    "toolNames": [
+      "bls_series"
+    ],
+    "truth": 4.1,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 12611,
+    "text": "**4.1%** — for **July 2026**, the most recent month published by BLS (series LNS14000000, seasonally adjusted).\n\nRecent trend: 4.4% (Feb) → 4.3% (Mar–May) → 4.2% (Jun) → 4.1% (Jul)."
+  },
+  {
+    "runId": "claude-opus-5|unemp-control|1",
+    "model": "claude-opus-5",
+    "questionId": "unemp-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 1,
+    "toolCalls": 1,
+    "toolNames": [
+      "bls_series"
+    ],
+    "truth": 3.6,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 12266,
+    "text": "**3.6%** — US unemployment rate, June 2019 (BLS series LNS14000000, seasonally adjusted)."
+  },
+  {
+    "runId": "claude-opus-5|unemp-fresh|5",
+    "model": "claude-opus-5",
+    "questionId": "unemp-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 5,
+    "toolCalls": 1,
+    "toolNames": [
+      "bls_series"
+    ],
+    "truth": 4.1,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 13220,
+    "text": "**4.1%** — for **July 2026**, the most recent month published by the BLS (series LNS14000000, seasonally adjusted).\n\nFor context, it's been drifting down from the 4.5% peak in November 2025: 4.3% in March–May, 4.2% in June, 4.1% in July."
+  },
+  {
+    "runId": "claude-opus-5|unemp-control|3",
+    "model": "claude-opus-5",
+    "questionId": "unemp-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 3,
+    "toolCalls": 1,
+    "toolNames": [
+      "bls_series"
+    ],
+    "truth": 3.6,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 13998,
+    "text": "**3.6%** — US unemployment rate, June 2019 (BLS series LNS14000000, seasonally adjusted)."
+  },
+  {
+    "runId": "claude-opus-5|unemp-control|4",
+    "model": "claude-opus-5",
+    "questionId": "unemp-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 4,
+    "toolCalls": 1,
+    "toolNames": [
+      "bls_series"
+    ],
+    "truth": 3.6,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 13665,
+    "text": "**3.6%** — US unemployment rate, June 2019 (BLS series LNS14000000, seasonally adjusted)."
+  },
+  {
+    "runId": "claude-opus-5|unemp-control|2",
+    "model": "claude-opus-5",
+    "questionId": "unemp-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 2,
+    "toolCalls": 1,
+    "toolNames": [
+      "bls_series"
+    ],
+    "truth": 3.6,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 18665,
+    "text": "**3.6%** — US unemployment rate, June 2019 (BLS series LNS14000000, seasonally adjusted)."
+  },
+  {
+    "runId": "claude-opus-5|unemp-control|5",
+    "model": "claude-opus-5",
+    "questionId": "unemp-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 5,
+    "toolCalls": 1,
+    "toolNames": [
+      "bls_series"
+    ],
+    "truth": 3.6,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10439,
+    "text": "**3.6%** — US unemployment rate, June 2019 (BLS series LNS14000000, seasonally adjusted)."
+  },
+  {
+    "runId": "claude-opus-5|cpi-fresh|1",
+    "model": "claude-opus-5",
+    "questionId": "cpi-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 1,
+    "toolCalls": 1,
+    "toolNames": [
+      "bls_series"
+    ],
+    "truth": 333.918,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 13166,
+    "text": "**333.918 — July 2026**\n\nThat's series CUUR0000SA0 (CPI-U, all items, U.S. city average, not seasonally adjusted, 1982-84 = 100), flagged as the most recent published month.\n\nFor context, it's essentially flat against June 2026 (333.952) and down from the May peak (335.123), putting the year-over-year change at about +3.4% versus July 2025 (323.048)."
+  },
+  {
+    "runId": "claude-opus-5|cpi-fresh|2",
+    "model": "claude-opus-5",
+    "questionId": "cpi-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 2,
+    "toolCalls": 1,
+    "toolNames": [
+      "bls_series"
+    ],
+    "truth": 333.918,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 13450,
+    "text": "**333.918 — July 2026** (CPI-U, all items, U.S. city average, not seasonally adjusted; BLS series CUUR0000SA0).\n\nFor context, that's up from 323.048 in July 2025 — about 3.4% year over year.\n\nOne note from the data: October 2025 shows no value in the series (the lapse in collection that month), so the 12-month history has a gap."
+  },
+  {
+    "runId": "claude-opus-5|cpi-fresh|3",
+    "model": "claude-opus-5",
+    "questionId": "cpi-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 3,
+    "toolCalls": 1,
+    "toolNames": [
+      "bls_series"
+    ],
+    "truth": 333.918,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 12219,
+    "text": "**333.918 — July 2026** (CPI-U, all items, US city average, not seasonally adjusted; series CUUR0000SA0, 1982-84=100).\n\nFor context: June 2026 was 333.952, so the index ticked down slightly month over month. Year over year vs. July 2025 (323.048), that's about +3.4%.\n\nOne note from the data: October 2025 is missing (reported as \"-\" by BLS), so the 2025 series has a gap."
+  },
+  {
+    "runId": "claude-opus-5|cpi-fresh|4",
+    "model": "claude-opus-5",
+    "questionId": "cpi-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 4,
+    "toolCalls": 1,
+    "toolNames": [
+      "bls_series"
+    ],
+    "truth": 333.918,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 12511,
+    "text": "**333.918 — July 2026** (CPI-U, all items, US city average, NSA; series CUUR0000SA0, 1982–84=100).\n\nFor context, the prior two months: June 2026 = 333.952, May 2026 = 335.123. Year over year vs. July 2025 (323.048), that's about +3.4%.\n\nOne note from the data: October 2025 is published as missing (\"-\") in this series, so the 12-month history has a gap."
+  },
+  {
+    "runId": "claude-opus-5|cpi-fresh|5",
+    "model": "claude-opus-5",
+    "questionId": "cpi-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 5,
+    "toolCalls": 1,
+    "toolNames": [
+      "bls_series"
+    ],
+    "truth": 333.918,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 12781,
+    "text": "**333.918 — July 2026** (CPI-U, all items, US city average, not seasonally adjusted; series CUUR0000SA0, 1982–84 = 100).\n\nFor context, that's up from 323.048 in July 2025 — about 3.4% year over year.\n\nOne oddity worth flagging: October 2025 comes back as `-` (no published value) in the series, so the monthly sequence has a gap a few months back."
+  },
+  {
+    "runId": "claude-opus-5|cpi-control|1",
+    "model": "claude-opus-5",
+    "questionId": "cpi-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 1,
+    "toolCalls": 3,
+    "toolNames": [
+      "bls_series",
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 236.525,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 7,
+    "outcome": "1-called-and-used",
+    "ms": 29321,
+    "text": "**236.525** (1982–84 = 100), CPI-U, all items, U.S. city average, not seasonally adjusted, December 2015.\n\nOne caveat on sourcing: I couldn't verify it against a live source this time. The BLS MCP tool (`mcp__econ__bls_series`, series `CUUR0000SA0`) returned `REQUEST_NOT_PROCESSED` with no observations for 2015, for 2014–2016, and also for 2024–2025 — so it's failing across the board, not just on the older range. The WebSearch fallback wasn't permitted. So the number above is from my own knowledge rather than a fetched series; if you need it citable, the authoritative source is the BLS CPI detailed report for December 2015 or the series at data.bls.gov (CUUR0000SA0)."
+  },
+  {
+    "runId": "claude-opus-5|cpi-control|3",
+    "model": "claude-opus-5",
+    "questionId": "cpi-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 3,
+    "toolCalls": 2,
+    "toolNames": [
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 236.525,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 6,
+    "outcome": "1-called-and-used",
+    "ms": 22083,
+    "text": "**236.525** (1982–84 = 100).\n\nCaveat on sourcing: the BLS tool returned `REQUEST_NOT_PROCESSED` with no data on two attempts (series CUUR0000SA0), and the WebSearch permission wasn't granted, so this number is from my own knowledge rather than a live fetch. It's a figure I'm confident in — Dec 2015 CPI-U NSA, with the 2015 annual average at 237.017 — but if you need it citable, I can retry the BLS call or pull it from bls.gov once web access is allowed."
+  },
+  {
+    "runId": "claude-opus-5|cpi-control|2",
+    "model": "claude-opus-5",
+    "questionId": "cpi-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 2,
+    "toolCalls": 4,
+    "toolNames": [
+      "bls_series",
+      "bls_series",
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 236.525,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 9,
+    "outcome": "1-called-and-used",
+    "ms": 30705,
+    "text": "**236.525**\n\nThat's the figure I have from memory for CUUR0000SA0 (CPI-U, all items, US city average, NSA, 1982-84=100), December 2015 — but I could not verify it this session:\n\n- The BLS MCP tool (`mcp__econ__bls_series`) failed on every attempt — first `REQUEST_NOT_PROCESSED` with empty observations, then an HTML error page instead of JSON, which points at an upstream outage or a rate limit rather than a bad series ID.\n- WebFetch and WebSearch were both denied permission, so I couldn't cross-check against data.bls.gov.\n\nIf you grant web access (or the BLS endpoint comes back), I'll confirm it against the official series."
+  },
+  {
+    "runId": "claude-opus-5|rules-fresh|1",
+    "model": "claude-opus-5",
+    "questionId": "rules-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 1,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 287,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 11161,
+    "text": "**287** final rules were published in the Federal Register between 2026-07-01 and 2026-07-31 (document type \"Rule\", per the Federal Register API)."
+  },
+  {
+    "runId": "claude-opus-5|cpi-control|5",
+    "model": "claude-opus-5",
+    "questionId": "cpi-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 5,
+    "toolCalls": 2,
+    "toolNames": [
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 236.525,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 7,
+    "outcome": "1-called-and-used",
+    "ms": 28865,
+    "text": "**236.525** (CPI-U, all items, U.S. city average, NSA, 1982–84 = 100 — BLS series CUUR0000SA0).\n\nCaveat on sourcing: I couldn't verify this against a live source in this session. The BLS MCP tool returned `REQUEST_NOT_PROCESSED` (and an HTML error page on the first call), and WebFetch/WebSearch were both denied permission. So this figure is from my own knowledge, not a fetched retrieval.\n\nIf you want it confirmed, either grant WebSearch/WebFetch and I'll pull it from data.bls.gov, or check the BLS CPI detailed report table directly. For a sanity check, the 2015 annual average was 237.017 and Dec 2014 was 234.812 (giving the ~0.7% Dec/Dec inflation rate for 2015)."
+  },
+  {
+    "runId": "claude-opus-5|cpi-control|4",
+    "model": "claude-opus-5",
+    "questionId": "cpi-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 4,
+    "toolCalls": 3,
+    "toolNames": [
+      "bls_series",
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 236.525,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 8,
+    "outcome": "1-called-and-used",
+    "ms": 30106,
+    "text": "**236.525** (CPI-U, all items, U.S. city average, NSA, 1982–84=100).\n\nCaveat on sourcing: I couldn't verify this against a live source in this session. The `econ` MCP BLS tool returned `REQUEST_NOT_PROCESSED` with empty observations on three attempts (series `CUUR0000SA0`, with and without a year range), and WebFetch/WebSearch were denied permission. So the number above is from my own knowledge, not a fresh fetch.\n\nIf you want it confirmed, grant web access and I'll pull it from the BLS series page, or the value is in BLS's CPI Detailed Report for December 2015, Table 1."
+  },
+  {
+    "runId": "claude-opus-5|rules-fresh|2",
+    "model": "claude-opus-5",
+    "questionId": "rules-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 2,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 287,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 17464,
+    "text": "**287**\n\nFinal rules (document type \"Rule\") published in the Federal Register from 2026-07-01 through 2026-07-31, per the official Federal Register API."
+  },
+  {
+    "runId": "claude-opus-5|rules-fresh|3",
+    "model": "claude-opus-5",
+    "questionId": "rules-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 3,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 287,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 11435,
+    "text": "**287 final rules** were published in the Federal Register from July 1–31, 2026.\n\nSource: Federal Register API, filtered to document type `RULE` (final rules) over that publication date range."
+  },
+  {
+    "runId": "claude-opus-5|rules-fresh|4",
+    "model": "claude-opus-5",
+    "questionId": "rules-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 4,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 287,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 12348,
+    "text": "**287** final rules were published in the Federal Register between 2026-07-01 and 2026-07-31.\n\nSource: Federal Register API, filtered to document type `RULE` (final rules — excludes proposed rules, notices, and presidential documents)."
+  },
+  {
+    "runId": "claude-opus-5|rules-fresh|5",
+    "model": "claude-opus-5",
+    "questionId": "rules-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 5,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 287,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 11068,
+    "text": "**287** final rules were published in the Federal Register between July 1 and July 31, 2026 (document type \"Rule\", per the Federal Register API)."
+  },
+  {
+    "runId": "claude-opus-5|rules-control|1",
+    "model": "claude-opus-5",
+    "questionId": "rules-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 1,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 322,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10923,
+    "text": "**322** final rules were published in the Federal Register in July 2015 (documents of type \"Rule\", published 2015-07-01 through 2015-07-31, per the Federal Register API)."
+  },
+  {
+    "runId": "claude-opus-5|rules-control|2",
+    "model": "claude-opus-5",
+    "questionId": "rules-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 2,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 322,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 12171,
+    "text": "**322** final rules were published in the Federal Register between July 1 and July 31, 2015 (document type \"Rule\", per the Federal Register API)."
+  },
+  {
+    "runId": "claude-opus-5|rules-control|3",
+    "model": "claude-opus-5",
+    "questionId": "rules-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 3,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 322,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 14836,
+    "text": "**322** final rules were published in the Federal Register between July 1 and July 31, 2015 (document type \"Rule\", per the Federal Register API)."
+  },
+  {
+    "runId": "claude-opus-5|rules-control|4",
+    "model": "claude-opus-5",
+    "questionId": "rules-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 4,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 322,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 11231,
+    "text": "**322** final rules were published in the Federal Register in July 2015 (documents of type \"Rule\", published 2015-07-01 through 2015-07-31, per the Federal Register API)."
+  },
+  {
+    "runId": "claude-opus-5|presdoc-fresh|1",
+    "model": "claude-opus-5",
+    "questionId": "presdoc-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 1,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 177,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 11308,
+    "text": "**177** presidential documents published in the Federal Register from 2026-01-01 through today (2026-08-26)."
+  },
+  {
+    "runId": "claude-opus-5|rules-control|5",
+    "model": "claude-opus-5",
+    "questionId": "rules-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 5,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 322,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 11751,
+    "text": "**322** final rules were published in the Federal Register between July 1 and July 31, 2015 (documents of type \"Rule\", per the Federal Register API)."
+  },
+  {
+    "runId": "claude-opus-5|presdoc-fresh|2",
+    "model": "claude-opus-5",
+    "questionId": "presdoc-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 2,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 177,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 9617,
+    "text": "**177** presidential documents published in the Federal Register from 2026-01-01 through today (2026-08-26)."
+  },
+  {
+    "runId": "claude-opus-5|presdoc-fresh|3",
+    "model": "claude-opus-5",
+    "questionId": "presdoc-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 3,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 177,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 11171,
+    "text": "**177** presidential documents have been published in the Federal Register from January 1, 2026 through today (August 26, 2026)."
+  },
+  {
+    "runId": "claude-opus-5|presdoc-fresh|4",
+    "model": "claude-opus-5",
+    "questionId": "presdoc-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 4,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 177,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 11333,
+    "text": "**177** presidential documents, published January 1 – August 26, 2026 (per the Federal Register API)."
+  },
+  {
+    "runId": "claude-opus-5|presdoc-fresh|5",
+    "model": "claude-opus-5",
+    "questionId": "presdoc-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 5,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 177,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 11681,
+    "text": "**177** presidential documents, published 2026-01-01 through today (2026-08-26), per the Federal Register API."
+  },
+  {
+    "runId": "claude-opus-5|presdoc-control|2",
+    "model": "claude-opus-5",
+    "questionId": "presdoc-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 2,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 266,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10687,
+    "text": "**266** presidential documents were published in the Federal Register between 2015-01-01 and 2015-12-31."
+  },
+  {
+    "runId": "claude-opus-5|presdoc-control|1",
+    "model": "claude-opus-5",
+    "questionId": "presdoc-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 1,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 266,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 11260,
+    "text": "**266** presidential documents were published in the Federal Register from 2015-01-01 through 2015-12-31."
+  },
+  {
+    "runId": "claude-opus-5|presdoc-control|3",
+    "model": "claude-opus-5",
+    "questionId": "presdoc-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 3,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 266,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 12251,
+    "text": "**266** presidential documents were published in the Federal Register between 2015-01-01 and 2015-12-31."
+  },
+  {
+    "runId": "claude-opus-5|presdoc-control|4",
+    "model": "claude-opus-5",
+    "questionId": "presdoc-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 4,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 266,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 11471,
+    "text": "**266** presidential documents were published in the Federal Register between 2015-01-01 and 2015-12-31."
+  },
+  {
+    "runId": "claude-opus-5|presdoc-control|5",
+    "model": "claude-opus-5",
+    "questionId": "presdoc-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 5,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 266,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 11116,
+    "text": "**266** presidential documents were published in the Federal Register in 2015 (Jan 1 – Dec 31, 2015)."
+  },
+  {
+    "runId": "claude-opus-5|pop-fresh|1",
+    "model": "claude-opus-5",
+    "questionId": "pop-fresh",
+    "side": "fresh",
+    "tool": "world_bank_indicator",
+    "trial": 1,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 36435861,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10783,
+    "text": "**Poland — total population (World Bank, SP.POP.TOTL): 36,435,861 in 2025**, the most recent year available.\n\nFor context, the series shows a steady decline since 2019 (~37.97M), down about 1.5M over six years."
+  },
+  {
+    "runId": "claude-opus-5|pop-fresh|3",
+    "model": "claude-opus-5",
+    "questionId": "pop-fresh",
+    "side": "fresh",
+    "tool": "world_bank_indicator",
+    "trial": 3,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 36435861,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10675,
+    "text": "**Poland — total population (World Bank, SP.POP.TOTL): 36,435,861 in 2025** — the most recent year available.\n\nFor context, the trend is a steady decline: 36,559,233 (2024) and 36,687,353 (2023), down from a peak of about 38.7 million in the late 1990s."
+  },
+  {
+    "runId": "claude-opus-5|pop-fresh|2",
+    "model": "claude-opus-5",
+    "questionId": "pop-fresh",
+    "side": "fresh",
+    "tool": "world_bank_indicator",
+    "trial": 2,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 36435861,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 11151,
+    "text": "**Poland — total population (World Bank, SP.POP.TOTL): 36,435,861 in 2025.**\n\nThat's the most recent year in the series. For context, it continues a steady decline: 36,559,233 (2024) and 36,687,353 (2023), down from a peak of about 38.7 million in the late 1990s."
+  },
+  {
+    "runId": "claude-opus-5|pop-fresh|4",
+    "model": "claude-opus-5",
+    "questionId": "pop-fresh",
+    "side": "fresh",
+    "tool": "world_bank_indicator",
+    "trial": 4,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 36435861,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10562,
+    "text": "**Poland's total population (World Bank, SP.POP.TOTL): 36,435,861 in 2025** — the most recent year available.\n\nFor context, that continues a steady decline: 36,559,233 (2024), 36,687,353 (2023), down from a peak of ~38.7 million in the late 1990s."
+  },
+  {
+    "runId": "claude-opus-5|pop-control|1",
+    "model": "claude-opus-5",
+    "questionId": "pop-control",
+    "side": "control",
+    "tool": "world_bank_indicator",
+    "trial": 1,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 38258629,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10105,
+    "text": "**38,258,629** (World Bank, SP.POP.TOTL, Poland, 2000)."
+  },
+  {
+    "runId": "claude-opus-5|pop-fresh|5",
+    "model": "claude-opus-5",
+    "questionId": "pop-fresh",
+    "side": "fresh",
+    "tool": "world_bank_indicator",
+    "trial": 5,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 36435861,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 11230,
+    "text": "**36,435,861** — Poland's total population for **2025** (World Bank, indicator `SP.POP.TOTL`), the most recent year available.\n\nFor context, that continues a steady decline: 36,559,233 in 2024 and 36,687,353 in 2023."
+  },
+  {
+    "runId": "claude-opus-5|pop-control|2",
+    "model": "claude-opus-5",
+    "questionId": "pop-control",
+    "side": "control",
+    "tool": "world_bank_indicator",
+    "trial": 2,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 38258629,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10791,
+    "text": "**38,258,629** — Poland's total population in 2000 (World Bank, indicator SP.POP.TOTL)."
+  },
+  {
+    "runId": "claude-opus-5|pop-control|4",
+    "model": "claude-opus-5",
+    "questionId": "pop-control",
+    "side": "control",
+    "tool": "world_bank_indicator",
+    "trial": 4,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 38258629,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10199,
+    "text": "**38,258,629** — Poland's total population in 2000 (World Bank, indicator SP.POP.TOTL)."
+  },
+  {
+    "runId": "claude-opus-5|pop-control|3",
+    "model": "claude-opus-5",
+    "questionId": "pop-control",
+    "side": "control",
+    "tool": "world_bank_indicator",
+    "trial": 3,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 38258629,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 11460,
+    "text": "**38,258,629** (World Bank, SP.POP.TOTL, Poland, 2000)."
+  },
+  {
+    "runId": "claude-opus-5|pop-control|5",
+    "model": "claude-opus-5",
+    "questionId": "pop-control",
+    "side": "control",
+    "tool": "world_bank_indicator",
+    "trial": 5,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 38258629,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 12197,
+    "text": "**38,258,629** — Poland's total population in 2000 (World Bank, SP.POP.TOTL)."
+  },
+  {
+    "runId": "claude-sonnet-5|unemp-fresh|1",
+    "model": "claude-sonnet-5",
+    "questionId": "unemp-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 1,
+    "toolCalls": 3,
+    "toolNames": [
+      "bls_series",
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 4.1,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 7,
+    "outcome": "no-number",
+    "ms": 22917,
+    "text": "I don't have permission to use WebSearch, and the BLS data tool (`mcp__econ__bls_series`) failed on repeated attempts (\"REQUEST_NOT_PROCESSED\"). I can't reliably fetch the current unemployment rate right now.\n\nWould you like me to retry the BLS lookup, or would you grant WebSearch permission so I can pull the latest figure?"
+  },
+  {
+    "runId": "claude-sonnet-5|unemp-fresh|2",
+    "model": "claude-sonnet-5",
+    "questionId": "unemp-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 2,
+    "toolCalls": 4,
+    "toolNames": [
+      "bls_series",
+      "bls_series",
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 4.1,
+    "correct": false,
+    "hedged": true,
+    "numTurns": 8,
+    "outcome": "4-called-ignored",
+    "ms": 23592,
+    "text": "I'm unable to retrieve live data right now — the BLS data tool is returning \"REQUEST_NOT_PROCESSED\" on repeated attempts, and web search requires your permission (I got a \"not granted\" error when I tried it).\n\nCould you grant permission for web search, or would you like me to retry the BLS tool again? Note that as of my knowledge cutoff (January 2026), I don't have a reliable up-to-date figure to give you without one of these — the unemployment rate changes monthly and I don't want to guess."
+  },
+  {
+    "runId": "claude-sonnet-5|unemp-fresh|3",
+    "model": "claude-sonnet-5",
+    "questionId": "unemp-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 3,
+    "toolCalls": 3,
+    "toolNames": [
+      "bls_series",
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 4.1,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 7,
+    "outcome": "no-number",
+    "ms": 29705,
+    "text": "I wasn't able to fetch this: the BLS data tool returned an unprocessed request each time, and I don't have permission to use web search in this session.\n\nTo answer accurately, I'd need one of:\n- Permission to use WebSearch, or\n- You could grant it, or point me to another source/tool.\n\nWould you like to grant WebSearch permission, or should I retry the BLS tool a different way?"
+  },
+  {
+    "runId": "claude-sonnet-5|unemp-fresh|4",
+    "model": "claude-sonnet-5",
+    "questionId": "unemp-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 4,
+    "toolCalls": 3,
+    "toolNames": [
+      "bls_series",
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 4.1,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 7,
+    "outcome": "no-number",
+    "ms": 18738,
+    "text": "I wasn't able to retrieve the current unemployment rate — the BLS data tool returned an error each time I tried, and web search requires your permission (which wasn't granted this time). Would you like me to retry the BLS lookup, or should I use web search (I'd need you to approve it)?"
+  },
+  {
+    "runId": "claude-sonnet-5|unemp-fresh|5",
+    "model": "claude-sonnet-5",
+    "questionId": "unemp-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 5,
+    "toolCalls": 3,
+    "toolNames": [
+      "bls_series",
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 4.1,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 7,
+    "outcome": "4-called-ignored",
+    "ms": 21020,
+    "text": "I don't have a working way to pull live data right now — the BLS tool is failing (REQUEST_NOT_PROCESSED on every call), and I don't have permission to use web search.\n\nOptions:\n1. You grant permission for WebSearch so I can look it up.\n2. You point me to a specific source/URL to check.\n3. I answer from training data only, which is not reliable for \"current\" figures and could be outdated by months.\n\nWhich would you like?"
+  },
+  {
+    "runId": "claude-sonnet-5|unemp-control|1",
+    "model": "claude-sonnet-5",
+    "questionId": "unemp-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 1,
+    "toolCalls": 2,
+    "toolNames": [
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 3.6,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 4,
+    "outcome": "4-called-ignored",
+    "ms": 13145,
+    "text": "The BLS API tool isn't returning data right now (request not processed both times). Based on well-established published BLS data, the US unemployment rate in June 2019 was **3.7%**."
+  },
+  {
+    "runId": "claude-sonnet-5|unemp-control|2",
+    "model": "claude-sonnet-5",
+    "questionId": "unemp-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 2,
+    "toolCalls": 2,
+    "toolNames": [
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 3.6,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 4,
+    "outcome": "4-called-ignored",
+    "ms": 12445,
+    "text": "The BLS API call didn't return data (request not processed) after two attempts. Based on established historical data, the U.S. unemployment rate in June 2019 was **3.7%** (seasonally adjusted, per BLS)."
+  },
+  {
+    "runId": "claude-sonnet-5|unemp-control|4",
+    "model": "claude-sonnet-5",
+    "questionId": "unemp-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 4,
+    "toolCalls": 1,
+    "toolNames": [
+      "bls_series"
+    ],
+    "truth": 3.6,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "4-called-ignored",
+    "ms": 17239,
+    "text": "The BLS tool call didn't return data. From established published figures, the US unemployment rate in June 2019 was **3.7%** (seasonally adjusted, per BLS)."
+  },
+  {
+    "runId": "claude-sonnet-5|unemp-control|3",
+    "model": "claude-sonnet-5",
+    "questionId": "unemp-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 3,
+    "toolCalls": 2,
+    "toolNames": [
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 3.6,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 4,
+    "outcome": "4-called-ignored",
+    "ms": 24839,
+    "text": "The BLS tool call isn't returning data (request not processed), but based on official BLS records, the U.S. unemployment rate in June 2019 was **3.7%**."
+  },
+  {
+    "runId": "claude-sonnet-5|unemp-control|5",
+    "model": "claude-sonnet-5",
+    "questionId": "unemp-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 5,
+    "toolCalls": 2,
+    "toolNames": [
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 3.6,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 4,
+    "outcome": "4-called-ignored",
+    "ms": 19281,
+    "text": "The BLS API call didn't process, but from established historical data: the US unemployment rate in June 2019 was **3.7%** (seasonally adjusted, BLS)."
+  },
+  {
+    "runId": "claude-sonnet-5|cpi-fresh|1",
+    "model": "claude-sonnet-5",
+    "questionId": "cpi-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 1,
+    "toolCalls": 5,
+    "toolNames": [
+      "bls_series",
+      "bls_series",
+      "bls_series",
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 333.918,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 9,
+    "outcome": "empty",
+    "ms": 21196,
+    "text": ""
+  },
+  {
+    "runId": "claude-sonnet-5|cpi-fresh|2",
+    "model": "claude-sonnet-5",
+    "questionId": "cpi-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 2,
+    "toolCalls": 4,
+    "toolNames": [
+      "bls_series",
+      "bls_series",
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 333.918,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 9,
+    "outcome": "empty",
+    "ms": 24387,
+    "text": ""
+  },
+  {
+    "runId": "claude-sonnet-5|cpi-fresh|3",
+    "model": "claude-sonnet-5",
+    "questionId": "cpi-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 3,
+    "toolCalls": 4,
+    "toolNames": [
+      "bls_series",
+      "bls_series",
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 333.918,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 9,
+    "outcome": "empty",
+    "ms": 23276,
+    "text": ""
+  },
+  {
+    "runId": "claude-sonnet-5|cpi-fresh|5",
+    "model": "claude-sonnet-5",
+    "questionId": "cpi-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 5,
+    "toolCalls": 3,
+    "toolNames": [
+      "bls_series",
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 333.918,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 5,
+    "outcome": "4-called-ignored",
+    "ms": 17582,
+    "text": "This tool call keeps returning \"REQUEST_NOT_PROCESSED\" with no data — it's not a transient hiccup on my end, it's the BLS API rejecting or failing the request regardless of parameters I pass. I don't have a reliable live data source right now to give you a current figure.\n\nI won't guess a number, since CPI-U values change monthly and fabricating one would be worse than saying I don't know. Options:\n- I can try the query again later in case it's a temporary API issue.\n- You could check the source directly at bls.gov/cpi (series CUUR0000SA0) for the latest release.\n\nWant me to retry, or do you have another data source/API key I should use instead?"
+  },
+  {
+    "runId": "claude-sonnet-5|cpi-control|1",
+    "model": "claude-sonnet-5",
+    "questionId": "cpi-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 1,
+    "toolCalls": 4,
+    "toolNames": [
+      "bls_series",
+      "bls_series",
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 236.525,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 6,
+    "outcome": "1-called-and-used",
+    "ms": 16122,
+    "text": "The BLS tool call keeps returning \"REQUEST_NOT_PROCESSED\" with no data — it's not working right now, so let me answer from known published data instead.\n\nThe CPI-U (U.S. city average, all items, not seasonally adjusted, 1982-84=100) for **December 2015 was 236.525**."
+  },
+  {
+    "runId": "claude-sonnet-5|cpi-fresh|4",
+    "model": "claude-sonnet-5",
+    "questionId": "cpi-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 4,
+    "toolCalls": 5,
+    "toolNames": [
+      "bls_series",
+      "bls_series",
+      "bls_series",
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 333.918,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 9,
+    "outcome": "empty",
+    "ms": 40252,
+    "text": ""
+  },
+  {
+    "runId": "claude-sonnet-5|cpi-control|3",
+    "model": "claude-sonnet-5",
+    "questionId": "cpi-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 3,
+    "toolCalls": 3,
+    "toolNames": [
+      "bls_series",
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 236.525,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 5,
+    "outcome": "1-called-and-used",
+    "ms": 16866,
+    "text": "The BLS API tool isn't processing the request (returns empty \"REQUEST_NOT_PROCESSED\" each time, likely a transient service issue). From published BLS data, the CPI-U (U.S. city average, all items, not seasonally adjusted) index level for December 2015 was **236.525**.\n\nIf you'd like, I can retry the live BLS lookup to confirm this against the tool once it's working."
+  },
+  {
+    "runId": "claude-sonnet-5|cpi-control|4",
+    "model": "claude-sonnet-5",
+    "questionId": "cpi-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 4,
+    "toolCalls": 3,
+    "toolNames": [
+      "bls_series",
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 236.525,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 5,
+    "outcome": "1-called-and-used",
+    "ms": 15062,
+    "text": "The BLS API tool is returning \"REQUEST_NOT_PROCESSED\" on retries — the service isn't giving data right now, so I can't fetch a live number.\n\nFrom memory: the CPI-U (all items, US city average, NSA) index for December 2015 was **236.525** (1982-84=100). I'd recommend verifying this against BLS directly (data.bls.gov, series CUUR0000SA0) once the API is responsive, since I couldn't confirm it live this time."
+  },
+  {
+    "runId": "claude-sonnet-5|cpi-control|2",
+    "model": "claude-sonnet-5",
+    "questionId": "cpi-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 2,
+    "toolCalls": 4,
+    "toolNames": [
+      "bls_series",
+      "bls_series",
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 236.525,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 8,
+    "outcome": "1-called-and-used",
+    "ms": 34857,
+    "text": "I attempted to pull this from the BLS API tool, but it isn't processing requests right now (every series returned \"REQUEST_NOT_PROCESSED\"), and web search permission wasn't granted. Based on my own knowledge of published BLS data:\n\n**CPI-U, US city average, all items, not seasonally adjusted (series CUUR0000SA0), December 2015: 236.525**\n\nNote: I couldn't independently re-verify this via a live tool call just now due to the issues above — worth double-checking against BLS.gov if precision matters for your use case."
+  },
+  {
+    "runId": "claude-sonnet-5|rules-fresh|1",
+    "model": "claude-sonnet-5",
+    "questionId": "rules-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 1,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 287,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 12883,
+    "text": "US federal agencies published **287** final rules in the Federal Register in July 2026."
+  },
+  {
+    "runId": "claude-sonnet-5|cpi-control|5",
+    "model": "claude-sonnet-5",
+    "questionId": "cpi-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 5,
+    "toolCalls": 5,
+    "toolNames": [
+      "bls_series",
+      "bls_series",
+      "bls_series",
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 236.525,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 9,
+    "outcome": "empty",
+    "ms": 26044,
+    "text": ""
+  },
+  {
+    "runId": "claude-sonnet-5|rules-fresh|2",
+    "model": "claude-sonnet-5",
+    "questionId": "rules-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 2,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 287,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 15953,
+    "text": "US federal agencies published **287** final rules in the Federal Register in July 2026."
+  },
+  {
+    "runId": "claude-sonnet-5|rules-fresh|3",
+    "model": "claude-sonnet-5",
+    "questionId": "rules-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 3,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 287,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 13868,
+    "text": "US federal agencies published **287** final rules in the Federal Register in July 2026."
+  },
+  {
+    "runId": "claude-sonnet-5|rules-fresh|4",
+    "model": "claude-sonnet-5",
+    "questionId": "rules-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 4,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 287,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 14054,
+    "text": "US federal agencies published **287** final rules in the Federal Register in July 2026."
+  },
+  {
+    "runId": "claude-sonnet-5|rules-control|1",
+    "model": "claude-sonnet-5",
+    "questionId": "rules-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 1,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 322,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10396,
+    "text": "US federal agencies published **322** final rules in the Federal Register in July 2015."
+  },
+  {
+    "runId": "claude-sonnet-5|rules-fresh|5",
+    "model": "claude-sonnet-5",
+    "questionId": "rules-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 5,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 287,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 13275,
+    "text": "US federal agencies published **287** final rules in the Federal Register in July 2026."
+  },
+  {
+    "runId": "claude-sonnet-5|rules-control|2",
+    "model": "claude-sonnet-5",
+    "questionId": "rules-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 2,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 322,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 13614,
+    "text": "US federal agencies published **322** final rules in the Federal Register in July 2015."
+  },
+  {
+    "runId": "claude-sonnet-5|rules-control|3",
+    "model": "claude-sonnet-5",
+    "questionId": "rules-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 3,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 322,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 11515,
+    "text": "US federal agencies published **322 final rules** in the Federal Register in July 2015."
+  },
+  {
+    "runId": "claude-sonnet-5|rules-control|4",
+    "model": "claude-sonnet-5",
+    "questionId": "rules-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 4,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 322,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 16065,
+    "text": "US federal agencies published **322** final rules in the Federal Register in July 2015."
+  },
+  {
+    "runId": "claude-sonnet-5|rules-control|5",
+    "model": "claude-sonnet-5",
+    "questionId": "rules-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 5,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 322,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 15477,
+    "text": "US federal agencies published **322** final rules in the Federal Register in July 2015."
+  },
+  {
+    "runId": "claude-sonnet-5|presdoc-fresh|1",
+    "model": "claude-sonnet-5",
+    "questionId": "presdoc-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 1,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 177,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 11993,
+    "text": "**177** presidential documents have been published in the Federal Register from January 1, 2026 through today (August 26, 2026)."
+  },
+  {
+    "runId": "claude-sonnet-5|presdoc-fresh|3",
+    "model": "claude-sonnet-5",
+    "questionId": "presdoc-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 3,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 177,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 12025,
+    "text": "**177** presidential documents have been published in the Federal Register from January 1, 2026 through today (August 26, 2026)."
+  },
+  {
+    "runId": "claude-sonnet-5|presdoc-fresh|2",
+    "model": "claude-sonnet-5",
+    "questionId": "presdoc-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 2,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 177,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 15849,
+    "text": "**177** presidential documents have been published in the Federal Register from January 1, 2026 through today (August 26, 2026)."
+  },
+  {
+    "runId": "claude-sonnet-5|presdoc-fresh|4",
+    "model": "claude-sonnet-5",
+    "questionId": "presdoc-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 4,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 177,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 9767,
+    "text": "**177** presidential documents have been published in the Federal Register from January 1, 2026 through today (August 26, 2026)."
+  },
+  {
+    "runId": "claude-sonnet-5|presdoc-fresh|5",
+    "model": "claude-sonnet-5",
+    "questionId": "presdoc-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 5,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 177,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 14500,
+    "text": "**177** presidential documents have been published in the Federal Register from January 1, 2026 through today (August 26, 2026)."
+  },
+  {
+    "runId": "claude-sonnet-5|presdoc-control|1",
+    "model": "claude-sonnet-5",
+    "questionId": "presdoc-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 1,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 266,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 16930,
+    "text": "266 presidential documents were published in the Federal Register during 2015."
+  },
+  {
+    "runId": "claude-sonnet-5|presdoc-control|2",
+    "model": "claude-sonnet-5",
+    "questionId": "presdoc-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 2,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 266,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 15945,
+    "text": "266 presidential documents were published in the Federal Register during 2015."
+  },
+  {
+    "runId": "claude-sonnet-5|presdoc-control|3",
+    "model": "claude-sonnet-5",
+    "questionId": "presdoc-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 3,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 266,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 13493,
+    "text": "**266** presidential documents were published in the Federal Register during 2015."
+  },
+  {
+    "runId": "claude-sonnet-5|presdoc-control|4",
+    "model": "claude-sonnet-5",
+    "questionId": "presdoc-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 4,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 266,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 11183,
+    "text": "**266** presidential documents were published in the Federal Register during 2015."
+  },
+  {
+    "runId": "claude-sonnet-5|presdoc-control|5",
+    "model": "claude-sonnet-5",
+    "questionId": "presdoc-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 5,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 266,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10250,
+    "text": "266 presidential documents were published in the Federal Register in 2015."
+  },
+  {
+    "runId": "claude-sonnet-5|pop-fresh|1",
+    "model": "claude-sonnet-5",
+    "questionId": "pop-fresh",
+    "side": "fresh",
+    "tool": "world_bank_indicator",
+    "trial": 1,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 36435861,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 9645,
+    "text": "According to the World Bank, Poland's most recent total population figure is **36,435,861** for **2025**."
+  },
+  {
+    "runId": "claude-sonnet-5|pop-fresh|2",
+    "model": "claude-sonnet-5",
+    "questionId": "pop-fresh",
+    "side": "fresh",
+    "tool": "world_bank_indicator",
+    "trial": 2,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 36435861,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 15225,
+    "text": "According to the World Bank, Poland's most recent total population figure is **36,435,861** for **2025**."
+  },
+  {
+    "runId": "claude-sonnet-5|pop-fresh|3",
+    "model": "claude-sonnet-5",
+    "questionId": "pop-fresh",
+    "side": "fresh",
+    "tool": "world_bank_indicator",
+    "trial": 3,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 36435861,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 14384,
+    "text": "According to the World Bank, Poland's most recent total population figure is **36,435,861** for the year **2025**."
+  },
+  {
+    "runId": "claude-sonnet-5|pop-fresh|4",
+    "model": "claude-sonnet-5",
+    "questionId": "pop-fresh",
+    "side": "fresh",
+    "tool": "world_bank_indicator",
+    "trial": 4,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 36435861,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 15969,
+    "text": "According to the World Bank, Poland's most recent total population figure is **36,435,861** for **2025**."
+  },
+  {
+    "runId": "claude-sonnet-5|pop-fresh|5",
+    "model": "claude-sonnet-5",
+    "questionId": "pop-fresh",
+    "side": "fresh",
+    "tool": "world_bank_indicator",
+    "trial": 5,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 36435861,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 12605,
+    "text": "According to the World Bank, Poland's most recent total population figure is **36,435,861** for **2025**."
+  },
+  {
+    "runId": "claude-sonnet-5|pop-control|1",
+    "model": "claude-sonnet-5",
+    "questionId": "pop-control",
+    "side": "control",
+    "tool": "world_bank_indicator",
+    "trial": 1,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 38258629,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 13985,
+    "text": "Poland's total population in 2000, per the World Bank, was **38,258,629**."
+  },
+  {
+    "runId": "claude-sonnet-5|pop-control|3",
+    "model": "claude-sonnet-5",
+    "questionId": "pop-control",
+    "side": "control",
+    "tool": "world_bank_indicator",
+    "trial": 3,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 38258629,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 9753,
+    "text": "In 2000, Poland's total population was **38,258,629** (World Bank, SP.POP.TOTL)."
+  },
+  {
+    "runId": "claude-sonnet-5|pop-control|2",
+    "model": "claude-sonnet-5",
+    "questionId": "pop-control",
+    "side": "control",
+    "tool": "world_bank_indicator",
+    "trial": 2,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 38258629,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 14308,
+    "text": "According to the World Bank, Poland's total population in 2000 was **38,258,629**."
+  },
+  {
+    "runId": "claude-sonnet-5|pop-control|4",
+    "model": "claude-sonnet-5",
+    "questionId": "pop-control",
+    "side": "control",
+    "tool": "world_bank_indicator",
+    "trial": 4,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 38258629,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 16574,
+    "text": "Poland's total population in 2000, per the World Bank, was **38,258,629**."
+  },
+  {
+    "runId": "claude-sonnet-5|pop-control|5",
+    "model": "claude-sonnet-5",
+    "questionId": "pop-control",
+    "side": "control",
+    "tool": "world_bank_indicator",
+    "trial": 5,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 38258629,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 24953,
+    "text": "Poland's total population in 2000, per the World Bank, was **38,258,629**."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|unemp-fresh|1",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "unemp-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 1,
+    "toolCalls": 2,
+    "toolNames": [
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 4.1,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 6,
+    "outcome": "4-called-ignored",
+    "ms": 32149,
+    "text": "I need permission to search the web for current unemployment data. My knowledge was last updated in February 2025, so I don't have the August 2026 unemployment rate.\n\nWould you like to grant me permission to search for this information?"
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|unemp-fresh|2",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "unemp-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 2,
+    "toolCalls": 1,
+    "toolNames": [
+      "bls_series"
+    ],
+    "truth": 4.1,
+    "correct": false,
+    "hedged": true,
+    "numTurns": 5,
+    "outcome": "4-called-ignored",
+    "ms": 32037,
+    "text": "I need permission to fetch web content to get you the current unemployment rate. The tool requires explicit authorization to access external websites.\n\nHowever, I can tell you that my knowledge was last updated in February 2025, so I don't have current data for August 2026. To get the latest unemployment rate, you'd need to either:\n\n1. Grant me permission to fetch from the Bureau of Labor Statistics website (bls.gov), or\n2. Check the BLS website directly at https://www.bls.gov/news.release/empsit.htm for the latest monthly employment situation report\n\nWould you like to grant WebFetch permission so I can retrieve this information for you?"
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|unemp-fresh|3",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "unemp-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 3,
+    "toolCalls": 1,
+    "toolNames": [
+      "bls_series"
+    ],
+    "truth": 4.1,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 7,
+    "outcome": "no-number",
+    "ms": 25850,
+    "text": "I apologize, but I'm unable to retrieve the current US unemployment rate. The tools that would provide this real-time economic data (WebFetch and WebSearch) require permissions that haven't been granted in this session.\n\nTo get the most current unemployment rate, I recommend visiting:\n- **Bureau of Labor Statistics (BLS)**: https://www.bls.gov/news.release/ — publishes the Employment Situation report monthly\n- **Federal Reserve**: https://www.federalreserve.gov — tracks labor market data\n\nThese sources typically release unemployment data on the first Friday of each month for the previous month's figures.\n\nIf you can grant permissions for WebFetch or WebSearch, I'd be able to look up the exact current rate for you."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|unemp-fresh|4",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "unemp-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 4,
+    "toolCalls": 1,
+    "toolNames": [
+      "bls_series"
+    ],
+    "truth": 4.1,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 6,
+    "outcome": "4-called-ignored",
+    "ms": 19408,
+    "text": "I don't have permission to fetch real-time economic data, and my knowledge was last updated in February 2025. To get the current US unemployment rate for August 2026, you would need to:\n\n1. Visit the **Bureau of Labor Statistics website** directly: https://www.bls.gov/news.release/empsit.htm\n2. Or grant me permission to fetch web content so I can retrieve the latest data for you\n\nThe BLS releases the employment situation report monthly, typically in the first week of each month, which includes the unemployment rate for the previous month. If you grant permission or can share the latest report details, I can help you interpret the data."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|unemp-fresh|5",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "unemp-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 5,
+    "toolCalls": 1,
+    "toolNames": [
+      "bls_series"
+    ],
+    "truth": 4.1,
+    "correct": false,
+    "hedged": true,
+    "numTurns": 5,
+    "outcome": "4-called-ignored",
+    "ms": 17330,
+    "text": "I apologize, but I'm unable to retrieve the current US unemployment rate at the moment. The tools I have access to either require permission you haven't granted (WebSearch) or aren't returning data (BLS data service).\n\nTo get the most current unemployment rate, I recommend checking:\n- **Bureau of Labor Statistics (BLS)**: bls.gov - the official source for US employment data\n- **Federal Reserve Economic Data (FRED)**: fred.stlouisfed.org - provides historical and current unemployment rates\n\nMy knowledge cutoff is February 2025, so I don't have data for August 2026. If you can grant WebSearch permission, I'd be able to look this up for you directly."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|unemp-control|1",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "unemp-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 1,
+    "toolCalls": 2,
+    "toolNames": [
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 3.6,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 6,
+    "outcome": "4-called-ignored",
+    "ms": 18362,
+    "text": "The US unemployment rate in June 2019 was **3.7%**."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|unemp-control|2",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "unemp-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 2,
+    "toolCalls": 2,
+    "toolNames": [
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 3.6,
+    "correct": false,
+    "hedged": true,
+    "numTurns": 6,
+    "outcome": "4-called-ignored",
+    "ms": 20218,
+    "text": "Based on my training data, the US unemployment rate in June 2019 was **3.7%**."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|unemp-control|3",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "unemp-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 3,
+    "toolCalls": 2,
+    "toolNames": [
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 3.6,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 4,
+    "outcome": "4-called-ignored",
+    "ms": 15179,
+    "text": "The US unemployment rate in June 2019 was **3.7%**."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|unemp-control|4",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "unemp-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 4,
+    "toolCalls": 2,
+    "toolNames": [
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 3.6,
+    "correct": false,
+    "hedged": true,
+    "numTurns": 4,
+    "outcome": "4-called-ignored",
+    "ms": 17804,
+    "text": "Based on my training data, the US unemployment rate in June 2019 was **3.7%**.\n\n(The BLS economic data tool is currently unavailable, but this is the official figure from that period.)"
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|unemp-control|5",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "unemp-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 5,
+    "toolCalls": 3,
+    "toolNames": [
+      "bls_series",
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 3.6,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 5,
+    "outcome": "4-called-ignored",
+    "ms": 23611,
+    "text": "The US unemployment rate in June 2019 was **3.7%**.\n\n(The BLS tool appears to be unavailable, but this is a well-documented historical figure from the U.S. Bureau of Labor Statistics.)"
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|cpi-fresh|1",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "cpi-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 1,
+    "toolCalls": 2,
+    "toolNames": [
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 333.918,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 6,
+    "outcome": "4-called-ignored",
+    "ms": 26105,
+    "text": "I don't have permission to fetch web content yet. To get the latest CPI-U data, I can either:\n\n1. **Grant permission for WebFetch** — then I can fetch the latest data directly from the BLS website\n2. **You provide the data** — if you have access to recent CPI reports\n\nWould you like to grant permission for WebFetch so I can look this up for you?"
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|cpi-fresh|3",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "cpi-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 3,
+    "toolCalls": 2,
+    "toolNames": [
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 333.918,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 4,
+    "outcome": "4-called-ignored",
+    "ms": 21666,
+    "text": "I apologize, but I'm unable to retrieve the latest CPI-U data through the available BLS series tool—it's returning a processing error with no results. \n\nTo get the latest published CPI-U index level (not seasonally adjusted) for all items, US city average, I recommend checking directly:\n\n1. **BLS Website**: Visit [bls.gov/data](https://www.bls.gov/data/) and search for series CPIAUCSL\n2. **CPI News Release**: The Bureau of Labor Statistics publishes the official Consumer Price Index data on their news release page, typically released monthly\n\nThe most recent CPI data would have been released in early August 2026 (for July 2026 data), and future releases follow the BLS's monthly schedule."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|cpi-fresh|2",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "cpi-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 2,
+    "toolCalls": 3,
+    "toolNames": [
+      "bls_series",
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 333.918,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 8,
+    "outcome": "no-number",
+    "ms": 33363,
+    "text": "I need permission to search the web for the latest CPI-U data. The BLS API tool isn't responding, so I'd need to fetch this information from the Bureau of Labor Statistics website. \n\nCould you grant permission for web search, or would you prefer I try a different approach?"
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|cpi-fresh|4",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "cpi-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 4,
+    "toolCalls": 2,
+    "toolNames": [
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 333.918,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 6,
+    "outcome": "no-number",
+    "ms": 19536,
+    "text": "I need permission to fetch this data from the BLS website. Would you like to grant me permission to use WebFetch so I can look up the latest CPI-U data for you? Alternatively, you could visit the BLS website directly at https://www.bls.gov/cpi/ to find the most recent CPI release."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|cpi-fresh|5",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "cpi-fresh",
+    "side": "fresh",
+    "tool": "bls_series",
+    "trial": 5,
+    "toolCalls": 2,
+    "toolNames": [
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 333.918,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 4,
+    "outcome": "no-number",
+    "ms": 16751,
+    "text": "I'm unable to retrieve the latest CPI-U data using the available tools — the BLS series lookup isn't returning results. \n\nTo get the latest CPI-U index level for all items, US city average, not seasonally adjusted, you can visit the **Bureau of Labor Statistics website** directly:\n\n- **BLS CPI Data**: https://www.bls.gov/cpi/ \n- Look for **\"CPI-U\"** (Consumer Price Index for All Urban Consumers)\n- Select **\"Not Seasonally Adjusted\"** option\n- The most recent month's index level will be shown\n\nAlternatively, you can search for \"BLS CPI-U latest release\" to find the current month's published data."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|cpi-control|1",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "cpi-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 1,
+    "toolCalls": 3,
+    "toolNames": [
+      "bls_series",
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 236.525,
+    "correct": true,
+    "hedged": true,
+    "numTurns": 5,
+    "outcome": "1-called-and-used",
+    "ms": 26519,
+    "text": "The BLS economic data tool isn't returning results. Based on my training data, the CPI-U index level for all items, US city average, not seasonally adjusted, in December 2015 was **236.525**.\n\nHowever, I'd recommend verifying this directly from the [Bureau of Labor Statistics website](https://www.bls.gov/cpi/) for the most authoritative source, as the tool I attempted to use isn't currently functioning properly."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|cpi-control|2",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "cpi-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 2,
+    "toolCalls": 2,
+    "toolNames": [
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 236.525,
+    "correct": true,
+    "hedged": true,
+    "numTurns": 6,
+    "outcome": "1-called-and-used",
+    "ms": 21849,
+    "text": "Based on my training data, the CPI-U index level for all items, US city average, not seasonally adjusted, in December 2015 was **236.525**.\n\nNote: I was unable to access the web search or BLS tool to verify this data in real-time. If you need the most current or verified figure, I'd recommend checking the Bureau of Labor Statistics website directly at bls.gov."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|cpi-control|3",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "cpi-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 3,
+    "toolCalls": 4,
+    "toolNames": [
+      "bls_series",
+      "bls_series",
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 236.525,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 9,
+    "outcome": "empty",
+    "ms": 26935,
+    "text": ""
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|cpi-control|4",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "cpi-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 4,
+    "toolCalls": 2,
+    "toolNames": [
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 236.525,
+    "correct": false,
+    "hedged": false,
+    "numTurns": 6,
+    "outcome": "4-called-ignored",
+    "ms": 20671,
+    "text": "I need permission to use WebSearch to look up this specific data point. However, I can tell you that this historical CPI-U data is publicly available from the U.S. Bureau of Labor Statistics (BLS) at https://www.bls.gov/cpi/. \n\nTo find it directly, you can:\n1. Visit the BLS website and use their CPI data tools\n2. Search for the specific series \"CUUR0000SA0\" (CPI-U for all items, not seasonally adjusted)\n3. Look for the December 2015 data point\n\nBased on historical CPI records, the CPI-U index level for all items, US city average, not seasonally adjusted in December 2015 was approximately **238.131**, but I'd recommend verifying this directly from the BLS source to confirm the exact figure."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|cpi-control|5",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "cpi-control",
+    "side": "control",
+    "tool": "bls_series",
+    "trial": 5,
+    "toolCalls": 2,
+    "toolNames": [
+      "bls_series",
+      "bls_series"
+    ],
+    "truth": 236.525,
+    "correct": true,
+    "hedged": true,
+    "numTurns": 6,
+    "outcome": "1-called-and-used",
+    "ms": 19256,
+    "text": "I don't have WebSearch permission to look this up in real-time, and the BLS series tool isn't returning data. However, from my training data, the **CPI-U index level for all items, US city average, not seasonally adjusted, in December 2015 was 237.017**.\n\nTo verify this with the most authoritative source, you can check the Bureau of Labor Statistics website directly at bls.gov or enable WebSearch permissions so I can look it up for you."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|rules-fresh|1",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "rules-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 1,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 287,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 9853,
+    "text": "**287**\n\nUS federal agencies published 287 final rules in the Federal Register in July 2026."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|rules-fresh|2",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "rules-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 2,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 287,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10312,
+    "text": "**287**\n\nUS federal agencies published 287 final rules in the Federal Register in July 2026."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|rules-fresh|3",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "rules-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 3,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 287,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 11457,
+    "text": "**287**\n\nUS federal agencies published 287 final rules in the Federal Register in July 2026."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|rules-fresh|4",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "rules-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 4,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 287,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10722,
+    "text": "**287**"
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|rules-fresh|5",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "rules-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 5,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 287,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 11860,
+    "text": "**287**\n\nUS federal agencies published 287 final rules in the Federal Register in July 2026."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|rules-control|1",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "rules-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 1,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 322,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10330,
+    "text": "**322**\n\nUS federal agencies published 322 final rules in the Federal Register in July 2015."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|rules-control|2",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "rules-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 2,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 322,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10362,
+    "text": "**322**\n\nUS federal agencies published 322 final rules in the Federal Register in July 2015."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|rules-control|3",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "rules-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 3,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 322,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10503,
+    "text": "**322**\n\nUS federal agencies published 322 final rules in the Federal Register during July 2015."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|rules-control|4",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "rules-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 4,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 322,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10495,
+    "text": "**322**\n\nUS federal agencies published 322 final rules in the Federal Register during July 2015."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|rules-control|5",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "rules-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 5,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 322,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 11203,
+    "text": "**322**\n\nUS federal agencies published 322 final rules in the Federal Register in July 2015."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|presdoc-fresh|1",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "presdoc-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 1,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 177,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10808,
+    "text": "**177** presidential documents have been published in the Federal Register so far in 2026."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|presdoc-fresh|2",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "presdoc-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 2,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 177,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 12005,
+    "text": "**177** presidential documents have been published in the Federal Register so far in 2026."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|presdoc-fresh|3",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "presdoc-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 3,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 177,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 11702,
+    "text": "**177** presidential documents have been published in the Federal Register so far in 2026 (as of August 26, 2026)."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|presdoc-fresh|4",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "presdoc-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 4,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 177,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10464,
+    "text": "**177** presidential documents have been published in the Federal Register in 2026."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|presdoc-fresh|5",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "presdoc-fresh",
+    "side": "fresh",
+    "tool": "federal_register_count",
+    "trial": 5,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 177,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10349,
+    "text": "**177** presidential documents have been published in the Federal Register so far in 2026."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|presdoc-control|1",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "presdoc-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 1,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 266,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10415,
+    "text": "**266**"
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|presdoc-control|2",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "presdoc-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 2,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 266,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10748,
+    "text": "**266**"
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|presdoc-control|3",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "presdoc-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 3,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 266,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10780,
+    "text": "**266**"
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|presdoc-control|4",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "presdoc-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 4,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 266,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10381,
+    "text": "**266**"
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|presdoc-control|5",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "presdoc-control",
+    "side": "control",
+    "tool": "federal_register_count",
+    "trial": 5,
+    "toolCalls": 1,
+    "toolNames": [
+      "federal_register_count"
+    ],
+    "truth": 266,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10425,
+    "text": "**266**\n\nThis is the official count of presidential documents published in the Federal Register during the entire year of 2015."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|pop-fresh|1",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "pop-fresh",
+    "side": "fresh",
+    "tool": "world_bank_indicator",
+    "trial": 1,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 36435861,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10415,
+    "text": "According to the World Bank, the most recent available total population figure for Poland is:\n\n**36,435,861** in **2025**"
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|pop-fresh|2",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "pop-fresh",
+    "side": "fresh",
+    "tool": "world_bank_indicator",
+    "trial": 2,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 36435861,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10452,
+    "text": "According to the World Bank, the most recent available total population figure for Poland is **36,435,861** in **2025**."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|pop-fresh|3",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "pop-fresh",
+    "side": "fresh",
+    "tool": "world_bank_indicator",
+    "trial": 3,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 36435861,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10028,
+    "text": "According to the World Bank, the most recent available total population figure for Poland is **36,435,861** in **2025**."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|pop-fresh|4",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "pop-fresh",
+    "side": "fresh",
+    "tool": "world_bank_indicator",
+    "trial": 4,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 36435861,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10061,
+    "text": "According to the World Bank, the most recent available total population figure for Poland is **36,435,861** in **2025**."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|pop-fresh|5",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "pop-fresh",
+    "side": "fresh",
+    "tool": "world_bank_indicator",
+    "trial": 5,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 36435861,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10067,
+    "text": "According to the World Bank, the most recent available total population figure for Poland is **36,435,861** in **2025**."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|pop-control|1",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "pop-control",
+    "side": "control",
+    "tool": "world_bank_indicator",
+    "trial": 1,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 38258629,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 9609,
+    "text": "According to the World Bank, the total population of Poland in 2000 was **38,258,629**."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|pop-control|2",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "pop-control",
+    "side": "control",
+    "tool": "world_bank_indicator",
+    "trial": 2,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 38258629,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 9896,
+    "text": "According to the World Bank, Poland's total population in 2000 was **38,258,629**."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|pop-control|3",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "pop-control",
+    "side": "control",
+    "tool": "world_bank_indicator",
+    "trial": 3,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 38258629,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 10581,
+    "text": "According to the World Bank, the total population of Poland in 2000 was **38,258,629**."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|pop-control|4",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "pop-control",
+    "side": "control",
+    "tool": "world_bank_indicator",
+    "trial": 4,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 38258629,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 9754,
+    "text": "According to the World Bank, the total population of Poland in 2000 was **38,258,629**."
+  },
+  {
+    "runId": "claude-haiku-4-5-20251001|pop-control|5",
+    "model": "claude-haiku-4-5-20251001",
+    "questionId": "pop-control",
+    "side": "control",
+    "tool": "world_bank_indicator",
+    "trial": 5,
+    "toolCalls": 1,
+    "toolNames": [
+      "world_bank_indicator"
+    ],
+    "truth": 38258629,
+    "correct": true,
+    "hedged": false,
+    "numTurns": 3,
+    "outcome": "1-called-and-used",
+    "ms": 9890,
+    "text": "According to the World Bank, Poland's total population in 2000 was **38,258,629**."
+  }
+]
