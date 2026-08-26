@@ -1,0 +1,137 @@
+{
+  "takenAt": "2026-08-26T19:01:45.973Z",
+  "truths": {
+    "unemp-fresh": {
+      "side": "fresh",
+      "tool": "bls_series",
+      "prompt": "What is the current US unemployment rate? Give the number and the month it refers to.",
+      "value": 4.1,
+      "label": "July 2026",
+      "raw": {
+        "year": "2026",
+        "period": "M07",
+        "periodName": "July",
+        "latest": "true",
+        "value": "4.1",
+        "footnotes": [
+          {}
+        ]
+      }
+    },
+    "unemp-control": {
+      "side": "control",
+      "tool": "bls_series",
+      "prompt": "What was the US unemployment rate in June 2019? Give the number.",
+      "value": 3.6,
+      "label": "June 2019",
+      "raw": {
+        "year": "2019",
+        "period": "M06",
+        "periodName": "June",
+        "value": "3.6",
+        "footnotes": [
+          {}
+        ]
+      }
+    },
+    "cpi-fresh": {
+      "side": "fresh",
+      "tool": "bls_series",
+      "prompt": "What is the latest published CPI-U index level for all items, US city average, not seasonally adjusted? Give the number and the month.",
+      "value": 333.918,
+      "label": "July 2026",
+      "raw": {
+        "year": "2026",
+        "period": "M07",
+        "periodName": "July",
+        "latest": "true",
+        "value": "333.918",
+        "footnotes": [
+          {}
+        ]
+      }
+    },
+    "cpi-control": {
+      "side": "control",
+      "tool": "bls_series",
+      "prompt": "What was the CPI-U index level for all items, US city average, not seasonally adjusted, in December 2015? Give the number.",
+      "value": 236.525,
+      "label": "December 2015",
+      "raw": {
+        "year": "2015",
+        "period": "M12",
+        "periodName": "December",
+        "value": "236.525",
+        "footnotes": [
+          {}
+        ]
+      }
+    },
+    "rules-fresh": {
+      "side": "fresh",
+      "tool": "federal_register_count",
+      "prompt": "How many final rules did US federal agencies publish in the Federal Register in July 2026? Give the number.",
+      "value": 287,
+      "label": "RULE 2026-07-01..2026-07-31",
+      "raw": {
+        "count": 287,
+        "url": "https://www.federalregister.gov/api/v1/documents.json?per_page=1&conditions%5Btype%5D%5B%5D=RULE&conditions%5Bpublication_date%5D%5Bgte%5D=2026-07-01&conditions%5Bpublication_date%5D%5Blte%5D=2026-07-31"
+      }
+    },
+    "rules-control": {
+      "side": "control",
+      "tool": "federal_register_count",
+      "prompt": "How many final rules did US federal agencies publish in the Federal Register in July 2015? Give the number.",
+      "value": 322,
+      "label": "RULE 2015-07-01..2015-07-31",
+      "raw": {
+        "count": 322,
+        "url": "https://www.federalregister.gov/api/v1/documents.json?per_page=1&conditions%5Btype%5D%5B%5D=RULE&conditions%5Bpublication_date%5D%5Bgte%5D=2015-07-01&conditions%5Bpublication_date%5D%5Blte%5D=2015-07-31"
+      }
+    },
+    "presdoc-fresh": {
+      "side": "fresh",
+      "tool": "federal_register_count",
+      "prompt": "How many presidential documents have been published in the Federal Register so far in 2026? Give the number.",
+      "value": 177,
+      "label": "PRESDOCU 2026-01-01..2026-08-26",
+      "raw": {
+        "count": 177,
+        "url": "https://www.federalregister.gov/api/v1/documents.json?per_page=1&conditions%5Btype%5D%5B%5D=PRESDOCU&conditions%5Bpublication_date%5D%5Bgte%5D=2026-01-01&conditions%5Bpublication_date%5D%5Blte%5D=2026-08-26"
+      }
+    },
+    "presdoc-control": {
+      "side": "control",
+      "tool": "federal_register_count",
+      "prompt": "How many presidential documents were published in the Federal Register during the whole of 2015? Give the number.",
+      "value": 266,
+      "label": "PRESDOCU 2015-01-01..2015-12-31",
+      "raw": {
+        "count": 266,
+        "url": "https://www.federalregister.gov/api/v1/documents.json?per_page=1&conditions%5Btype%5D%5B%5D=PRESDOCU&conditions%5Bpublication_date%5D%5Bgte%5D=2015-01-01&conditions%5Bpublication_date%5D%5Blte%5D=2015-12-31"
+      }
+    },
+    "pop-fresh": {
+      "side": "fresh",
+      "tool": "world_bank_indicator",
+      "prompt": "According to the World Bank, what is the most recent available total population figure for Poland? Give the number and the year.",
+      "value": 36435861,
+      "label": "POL 2025",
+      "raw": {
+        "year": "2025",
+        "value": 36435861
+      }
+    },
+    "pop-control": {
+      "side": "control",
+      "tool": "world_bank_indicator",
+      "prompt": "According to the World Bank, what was the total population of Poland in 2000? Give the number.",
+      "value": 38258629,
+      "label": "POL 2000",
+      "raw": {
+        "year": "2000",
+        "value": 38258629
+      }
+    }
+  }
+}
