@@ -17,7 +17,7 @@ const flag = (k, d) => { const i = argv.indexOf(k); return i >= 0 && argv[i + 1]
 const OUT = flag("--out", "research/tool-reach/out");
 mkdirSync(OUT, { recursive: true });
 
-const spec = JSON.parse(readFileSync("research/tool-reach/questions.json", "utf8"));
+const spec = JSON.parse(readFileSync("questions.json", "utf8"));
 const today = new Date().toISOString().slice(0, 10);
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));

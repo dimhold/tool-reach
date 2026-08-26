@@ -1,16 +1,16 @@
 # Will a model pick up a tool it thinks it doesn't need
 
-A live MCP server to three government data sources, ten questions, three models,
-150 calls. Half the questions have answers that moved after the models were
+A live MCP server to three government data sources, ten questions, four models,
+200 calls. Half the questions have answers that moved after the models were
 trained. The other half have answers that have not moved in a decade and sit
 inside every one of these models already.
 
-**149 of 150 calls reached for the tool.** Including the ones the model knew.
+**199 of 200 calls reached for the tool.** Including the ones the model knew.
 
 That was the registered hypothesis dying: the expectation, written down four
 days before the run, was that answering from memory as fact would be common, and
 the kill condition — nine in ten or better — was written down with it. It came
-in at 99%. `PREREGISTRATION.md` carries both, unedited.
+in at 99.5%. `PREREGISTRATION.md` carries both, unedited.
 
 ## The instrument is the log, not the answer
 
@@ -26,24 +26,29 @@ nobody planned.
 
 `api.bls.gov` without an API key throttles **in the response body rather than
 the status code** — HTTP 200 carrying HTML or `REQUEST_NOT_PROCESSED`. Under the
-load of the run it refused for the whole window. Sixty of the 150 cells reached
+load of the run it refused for the whole window. Eighty of the 200 cells reached
 the model holding a tool that could not answer.
 
 The server logged which calls came back with data, so the run splits cleanly:
 
-**Where the tool worked — 90 cells — every model was right 90 out of 90 times.**
-Nobody fell back on memory when there was data.
+**Where the tool worked — 120 cells — every model was right 120 out of 120
+times.** Nobody fell back on memory when there was data.
 
-**Where the tool failed — 60 cells — the models diverged completely:**
+**Where the tool failed — 80 cells — the models diverged completely:**
 
 | model | said the tool failed | gave a number without mentioning the failure |
 |---|---|---|
 | claude-opus-5 | 20/20 | **0/20** |
-| claude-sonnet-5 | 9/20 | 5/20 |
-| claude-haiku-4-5 | 2/20 | **14/20** |
+| claude-sonnet-5 | 9/19 | 5/19 |
+| claude-haiku-4-5 | 2/19 | **14/19** |
+| claude-fable-5 | 8/13 | 5/13 |
 
 Same broken tool, same questions, same prompt. One model never once passed off a
-remembered number as a retrieved one. Another did it in 14 cells out of 20.
+remembered number as a retrieved one. Another did it in 14 cells out of 19.
+
+Denominators differ because empty replies are excluded — see `RESULTS.md`. Fable
+went silent in 7 of its 20 cells, which is a finding of its own and not
+caution.
 
 This is the third measurement in a series and it lands on the same axis as the
 first two: [tool-honesty](https://github.com/dimhold/tool-honesty) (0/40) and
@@ -53,7 +58,7 @@ the tool.
 
 ## One number the models could not have
 
-All three answer 3.7% for US unemployment in June 2019. BLS returns **3.6%**
+All four answer 3.7% for US unemployment in June 2019. BLS returns **3.6%**
 today. Both are correct in their own frame: 3.7% was the print, 3.6% is the
 revised series. The model carries the print forever. This is precisely the case
 a live connector exists to catch, and it is invisible unless you look.

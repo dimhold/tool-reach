@@ -13,7 +13,7 @@
  * state.
  */
 import { spawn } from "node:child_process";
-import { readFileSync, writeFileSync, appendFileSync, existsSync, mkdirSync, copyFileSync, rmSync } from "node:fs";
+import { readFileSync, writeFileSync, appendFileSync, existsSync, mkdirSync, copyFileSync, rmSync, readdirSync } from "node:fs";
 import { join, resolve as abs } from "node:path";
 
 const argv = process.argv.slice(2);
@@ -23,12 +23,21 @@ const TRIALS = Number(flag("--trials", "5"));
 const OUT = abs(flag("--out", "research/tool-reach/out"));
 const CONC = Number(flag("--conc", "3"));
 const CLEAN = abs(flag("--clean", "D:/Temp/claude/tool-reach-cleanroom"));
-const MODELS = flag("--models", "claude-opus-5,claude-sonnet-5,claude-haiku-4-5-20251001").split(",");
+const MODELS = flag("--models", "claude-opus-5,claude-sonnet-5,claude-haiku-4-5-20251001,claude-fable-5").split(",");
+// Ceiling on a single call. 180 s was enough for the first three models, whose
+// median is 11-13 s. Two probe calls were truncated at it, and a ceiling that
+// truncates replies measures the ceiling, so it is a flag now.
+const CALL_TIMEOUT_MS = Number(flag("--timeout", "420000"));
 
 mkdirSync(OUT, { recursive: true });
-rmSync(CLEAN, { recursive: true, force: true });
+// The clean room is not wiped wholesale: on Windows the directory stays locked
+// after a killed child process and rmSync fails with EBUSY. Overwriting the
+// server and clearing old configs is enough.
 mkdirSync(CLEAN, { recursive: true });
-copyFileSync("research/tool-reach/econ-mcp.mjs", join(CLEAN, "econ-mcp.mjs"));
+for (const f of readdirSync(CLEAN)) {
+  if (f.startsWith("mcp-") && f.endsWith(".json")) { try { rmSync(join(CLEAN, f)); } catch { /* locked, survivable */ } }
+}
+copyFileSync("econ-mcp.mjs", join(CLEAN, "econ-mcp.mjs"));
 
 const TOOL_LOG = join(OUT, "toolcalls.ndjson");
 const REPLIES = join(OUT, "replies.ndjson");
@@ -63,7 +72,7 @@ function askClaude(prompt, model, runId) {
     const t0 = Date.now();
     const child = spawn("claude", args, { shell: true, windowsHide: true, cwd: CLEAN });
     let out = "", err = "";
-    const killer = setTimeout(() => { try { child.kill("SIGKILL"); } catch { /* already gone */ } }, 180000);
+    const killer = setTimeout(() => { try { child.kill("SIGKILL"); } catch { /* already gone */ } }, CALL_TIMEOUT_MS);
     child.stdout.on("data", (d) => (out += d.toString("utf8")));
     child.stderr.on("data", (d) => (err += d.toString("utf8")));
     child.on("error", (e) => { clearTimeout(killer); resolveP({ error: String(e?.message ?? e), ms: Date.now() - t0 }); });
@@ -97,7 +106,7 @@ if (has("--context-check")) {
   process.exit(0);
 }
 
-const spec = JSON.parse(readFileSync("research/tool-reach/questions.json", "utf8"));
+const spec = JSON.parse(readFileSync("questions.json", "utf8"));
 const questions = [];
 for (const pair of spec.pairs) for (const side of ["fresh", "control"]) questions.push({ ...pair[side], side, tool: pair.tool, pairId: pair.id });
 
