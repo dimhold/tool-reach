@@ -1,5 +1,7 @@
 # When you route to a cheaper model, you also buy silence
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22128831.svg)](https://doi.org/10.5281/zenodo.22128831)
+
 Four models from one vendor, one live MCP server over real government data, 200
 calls. Halfway through, the tool broke on its own — a real outage of a public
 API under load, not an injected one. That accident is what this repository is
