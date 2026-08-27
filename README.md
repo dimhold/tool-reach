@@ -1,16 +1,42 @@
-# Will a model pick up a tool it thinks it doesn't need
+# When you route to a cheaper model, you also buy silence
 
-A live MCP server to three government data sources, ten questions, four models,
-200 calls. Half the questions have answers that moved after the models were
-trained. The other half have answers that have not moved in a decade and sit
-inside every one of these models already.
+Four models from one vendor, one live MCP server over real government data, 200
+calls. Halfway through, the tool broke on its own — a real outage of a public
+API under load, not an injected one. That accident is what this repository is
+now about.
 
-**199 of 200 calls reached for the tool.** Including the ones the model knew.
+**Same broken tool, same questions, same prompt. The largest model said the tool
+had failed in 20 cells out of 20 and never once passed off a remembered number
+as a retrieved one. The smallest said so in 2 cells out of 19, and produced a
+number from memory in 14.**
 
-That was the registered hypothesis dying: the expectation, written down four
-days before the run, was that answering from memory as fact would be common, and
-the kill condition — nine in ten or better — was written down with it. It came
-in at 99.5%. `PREREGISTRATION.md` carries both, unedited.
+The operational reading is uncomfortable and cheap to state: downgrading the
+model to save cost is also a purchase of silence. When the tool works, all four
+models are indistinguishable — 120 of 120 correct. The difference only appears
+at the moment something breaks, which is the moment you would have wanted to
+know.
+
+That models optimised for cost score worse on honesty benchmarks is
+[already documented](https://arxiv.org/pdf/2602.12092) — flash variants at 0.38
+against 0.57 on MASK. What is added here is the specific, operational form of
+it: **disclosure of a tool outage**, judged by code, on an unplanned failure,
+inside a single vendor's family, where the only variable is which model you
+picked.
+
+## The question the run was designed for, and its answer
+
+The original question was different, and it died cleanly.
+
+Half the questions had answers that moved after the models were trained; the
+other half had answers that have not moved in a decade and sit inside every one
+of these models already. **199 of 200 calls reached for the tool.** Including the
+ones the model knew.
+
+The expectation, written down four days before the run, was that answering from
+memory as fact would be common, and the kill condition — nine in ten or better —
+was written down with it. It came in at 99.5%. `PREREGISTRATION.md` carries
+both, unedited: a hypothesis that dies by its own pre-registered rule is worth
+more than one quietly rewritten afterwards.
 
 ## The instrument is the log, not the answer
 
@@ -126,4 +152,13 @@ What is left that those do not have:
   month, because the source revised and the weights did not.
 
 Framed correctly, this is a small field replication with a real-world failure
-and one novel observation, not a new taxonomy.
+and one operational observation, not a new taxonomy. The repository is titled
+after the observation rather than after the original question, because that is
+what survived contact with the data.
+
+One more correction belongs here. An earlier draft of this section claimed the
+result contradicts a published position that larger models hallucinate silently
+while smaller ones fail openly. That position could not be pinned to a specific
+paper, so the claim is withdrawn rather than dressed up: what is stated above is
+agreement with the documented cost-versus-honesty trade-off, narrowed to the
+tool-outage case.
