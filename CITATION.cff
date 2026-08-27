@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "tool-reach"
+type: software
+authors:
+  - family-names: Semenkevich
+    given-names: Dmitriy
+    orcid: "https://orcid.org/0009-0009-3013-4978"
+version: "1.0.0"
+date-released: "2026-08-27"
+license: MIT
+repository-code: "https://github.com/dimhold/tool-reach"
+abstract: "Four models from one vendor, one live MCP tool, and a real outage halfway through. The largest disclosed the failure 20 of 20, the smallest 2 of 19 and answered from memory in 14."
+keywords:
+  - "LLM evaluation"
+  - "tool use in LLM agents"
+  - "MCP"
+  - "reliability"
+  - "measurement"
