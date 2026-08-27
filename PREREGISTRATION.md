@@ -127,3 +127,21 @@ between passes and it is named for that reason.
 empty stdout and empty stderr, that cell is reported as empty and excluded from
 the behavioural rates, with the count shown next to them. Folding silence into
 "did not fabricate" would make a model that produces nothing look careful.
+
+---
+
+## Addendum, 2026-08-27: who has already done this
+
+**Written after the run, which is the wrong order**, and recorded as an addendum
+for that reason. From 2026-08-27 this section is mandatory in every
+measurement's criteria and is written *before* the first number.
+
+The four-outcome taxonomy above exists in the literature under other names — see
+Prior work in `README.md`. In particular the sentence in "Why it is not obvious"
+claiming that outcome 4 "is separately interesting because nobody looks for it
+in logs" **is false**: `ToolFailBench` calls it Result-Ignore and classifies it
+with deterministic rules, exactly as here.
+
+That sentence is not deleted. It stands as written, with this correction beside
+it, because the pre-registration is evidence about what was believed at the time
+and editing it would destroy what it is for.

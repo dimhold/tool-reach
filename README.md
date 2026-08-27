@@ -91,3 +91,39 @@ broken stratum.
 
 Both are in the repository rather than deleted, because a run you throw away is
 part of the method.
+
+## Prior work, and what is actually new here
+
+Written **after** the run, on 2026-08-27, which is the wrong order and is
+recorded as such.
+
+The taxonomy this series was built on is **already in the literature, under
+different names**:
+
+- [*ToolFailBench: Diagnosing Tool-Use Failures in LLM Agents*](https://arxiv.org/pdf/2607.04686)
+  separates **Tool-Skip, Result-Ignore, Output-Fabrication and
+  Unnecessary-Tool-Use**, and labels traces with deterministic rule classifiers.
+  Those are, near enough, the four outcomes pre-registered here and the same
+  decision to judge by code rather than by a model.
+- [*CRITICTOOL: Evaluating Self-Critique Capabilities of Large Language Models in
+  Tool-Calling Error Scenarios*](https://arxiv.org/pdf/2506.13977) measures what
+  a model does specifically when a tool errors.
+- [*Benchmarking the Benchmarks: A Validity Audit of Tool-Calling Evaluation*](https://arxiv.org/html/2607.02577)
+  audits the field these belong to.
+
+The claim that "nobody looks for outcome 4 in logs", written in the
+pre-registration, **is wrong**. It is looked for and it has a name:
+Result-Ignore.
+
+What is left that those do not have:
+
+- **A live tool over real primary sources**, not a simulated environment. The
+  failure that produced the interesting half of this run was a genuine outage of
+  a government API under load, not an injected one.
+- **A within-family comparison on an unplanned failure**: four models from one
+  vendor, same prompt, same broken tool, disclosure ranging from 20/20 to 2/19.
+- **A revision that the models cannot have**: 3.7% against 3.6% for the same
+  month, because the source revised and the weights did not.
+
+Framed correctly, this is a small field replication with a real-world failure
+and one novel observation, not a new taxonomy.
